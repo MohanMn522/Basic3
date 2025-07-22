@@ -1,0 +1,28 @@
+#Setup
+Install required libraries
+If you're using Jupyter or Colab, run this first:
+
+bash
+pip install tensorflow numpy matplotlib
+Or in Colab:
+
+python
+!pip install tensorflow
+
+Download the dataset from Kaggle
+Link: https://www.kaggle.com/competitions/dogs-vs-cats/data
+
+Download and unzip the dataset.
+
+Organize files into folders:
+
+bash
+Copy
+Edit
+/data/
+  /train/
+    /dogs/
+    /cats/
+  /validation/
+    /dogs/
+    /cats/
